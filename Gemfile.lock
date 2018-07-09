@@ -1,0 +1,41 @@
+PATH
+  remote: .
+  specs:
+    api_client_fun (0.1.0)
+      faraday (~> 0.15)
+      faraday_middleware (~> 0.12)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
+    faraday (0.15.2)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.12.2)
+      faraday (>= 0.7.4, < 1.0)
+    hashdiff (0.3.7)
+    minitest (5.11.3)
+    multipart-post (2.0.0)
+    public_suffix (3.0.2)
+    rake (10.5.0)
+    safe_yaml (1.0.4)
+    webmock (3.4.2)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  api_client_fun!
+  bundler (~> 1.16)
+  minitest (~> 5.0)
+  rake (~> 10.0)
+  webmock (~> 3.4)
+
+BUNDLED WITH
+   1.16.2
